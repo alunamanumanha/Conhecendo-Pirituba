@@ -1,0 +1,296 @@
+:root {
+    --azulmarinho:rgb(37, 37, 88);
+    --azulnormal:rgb(88, 88, 202);
+
+}
+
+
+/*FORMATAÇÃO GERAL*/
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Rampart One', cursive;
+}
+p, li, th, a {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(42, 42, 126) solid 2px;
+    color: rgb(42, 42, 126);
+    position: sticky;
+    top: 0px;
+}
+
+header > img {
+    display: inline-block;
+    height: 60px;
+}
+
+#rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    height: 200px;
+    background-color: var(--azulmarinho);
+    color: white;
+}
+#rodape > a {
+    color: white;
+}
+
+
+/*FORMATAÇÃO DA PÁGINA INICIAL*/
+#imageminicial {
+    width: 100%;
+    height: 660px;
+    background-image: url(imageminicial.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#titulo1 {
+    margin: 0px auto 50px auto;
+    color: white;
+    background-color: rgb(42, 42, 126);
+    padding: 6px;
+    text-align: center;
+    width: 380px;
+}
+
+#titulo2 {
+    margin: 90px auto;
+    color: white;
+    background-color: rgb(42, 42, 126);
+    padding: 2px;
+    width: 580px;
+    text-align: center;
+}
+
+#titulo3 {
+    margin: 0px auto;
+    color: white;
+    background-color: rgb(42, 42, 126);
+    padding: 8px;
+    width: 100px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+#história {
+    color: rgb(42, 42, 126);
+    text-align: center;
+
+}
+#historiatexto {
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+}
+#historia2 {
+    margin-top: 40px;
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+}
+hr {
+    max-width: 900px;
+    margin: 10px auto 30px auto;
+    border: 1.5px var(--azulnormal) solid;
+}
+
+
+
+
+/*FORMATAÇÃO DA INFO DEMOG*/
+#título1 {
+    margin-top: 30px;
+    color: rgb(42, 42, 126);
+    text-align: center;
+}
+
+#imagemdemog {
+    margin: 30px 400px;
+    width: 500px;
+}
+
+#textodemog {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    width: 600px;
+    height: 130px;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/*FORMATAÇÃO DO COMERCIO*/
+
+main > div {
+    margin-left: 223px;
+    margin-right: 212px;
+}
+
+#indicações > li {
+    color: black;
+}
+
+#comerciolocal {
+    display: flex;
+}
+
+#escolasol {
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+#prigule {
+    width: 535px;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+#batista {
+    width: 535px;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+#albert {
+    width: 535px;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+#global {
+    width: 535px;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+h4 {
+    color: var(--azulmarinho);
+}
+
+
+/*FORMATAÇÃO DO DIFERENCIAL*/
+
+#text {
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+}
+#text > img {
+    width: 1200px;
+    height: 200px;
+    margin-left: 70px;
+}
+#trem {
+    display: flex;
+    text-align: center;
+}
+#trem > img {
+    width: 900px;
+    height: 200px;
+    margin-left: 70px; 
+}
+
+#diferencial {
+    text-align: center;
+}
+
+#jardins {
+    display: flex;
+    gap: 20px;
+}
+#jardins > #segunda {
+    width: 478px;
+}
+#jardins > #primeira {
+    width: 400px;
+}
+
+ol > li {
+    margin-left: 50px;
+}
+
+#primeiraf {
+    width: 300px;
+}
+#segundaf {
+    width: 300px;
+}
+
+/*FORMATAÇÃO FORMULÁRIO*/
+
+#formulario {
+    background-color: var(--azulmarinho);
+}
+
+#nomeusuario {
+    color: white;
+    margin-left: 90px;
+}
+
+#formularioh2 {
+    color: white;
+    text-align: center;
+}
+
+#hr {
+    background-color: aliceblue;
+}
+
+#enviar {
+    margin-left: 90px;
+    height: 40px;
+    display: inline;
+}
+
+
+#rodape2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    height: 200px;
+    background-color: whitesmoke;
+    color: var(--azulmarinho);
+}
+
+main {
+    margin-left: 90px;
+}
+
+#nomeusuario2 {
+    width: 400px;
+    height: 50px;
+}
+
+#sugest > #nomeusuario2 {
+    width: 200px;
+
+}
+
+#textsugest {
+    color: white;
+    margin: 40px;
+}
